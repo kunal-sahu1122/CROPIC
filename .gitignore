@@ -1,0 +1,39 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# Datasets
+MASTER_DATASET/
+classification_dataset/
+dataset/
+
+# MongoDB local data
+mongodb_data/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Temporary files
+temp_uploads/
+audio/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local claim database
+backend/claims_db.json
